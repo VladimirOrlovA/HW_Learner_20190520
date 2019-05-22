@@ -7,7 +7,7 @@
 
 void main() {
 	learnersArr l("ItStep");  // (string name, int age, int academicPerformance, int stage)
-	l.addLearner(new schoolkid("Vasilii", 10, 12, 1));
+	l.addLearner(new schoolkid("Vasiliy", 10, 12, 1));
 	l.addLearner(new schoolkid("Masha", 10, 10, 1));
 	l.addLearner(new schoolkid("Petya", 11, 9, 1));
 

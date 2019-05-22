@@ -1,7 +1,7 @@
 #pragma once
 #include"human.h"
 
-class learner:public human {
+class learner abstract :public human {
 
 	int academicPerformance;
 public:

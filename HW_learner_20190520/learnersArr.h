@@ -15,7 +15,7 @@ public:
 	void setLearners(string learners) { this->learners = learners; }
 	string getLearners() const { return this->learners; }
 
-	void info(string str) {
+	void info(string str) const {
 		cout << "Learners " << learners;
 		for (learner*l : learn) {
 			if (str == string(typeid(*l).name()).substr(6))

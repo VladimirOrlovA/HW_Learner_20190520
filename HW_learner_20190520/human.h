@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class human
+class human abstract  
 {
 	string name;
 	int age;
